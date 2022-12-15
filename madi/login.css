@@ -1,0 +1,45 @@
+@font-face {
+    font-family: mikhak;
+    src: url(font3.woff2) format("woff2");
+}
+
+body{
+    font-family: mikhak;
+    background-image: url(picture.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px ;
+}
+
+span{
+    color: #4b28c4;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+
+}
+
+
+header{
+    color: #4b28c4;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
