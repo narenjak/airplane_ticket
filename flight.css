@@ -10,33 +10,35 @@
     top: 0;
     backdrop-filter: bulr(80%);
 }
-.availabe-flights{
-    
+.availabe-flights-ticket{
+    width: 750px;
+    height: 220px;
+    margin: 20px auto;
+    border: 5px solid #ffffff;
+    border-radius: 30px;
+    background-image: 
+       url("src/tst.png");
+    background-size:cover;
+    background-repeat: no-repeat;
 }
-#HeaderOfList{
+.x3{
+    position: fixed;
+    text-align: right;
+    width: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 20px 30px rgba(137, 113, 221, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: bulr(70%);
+}
+
+.flight-describsion{
     margin-top: 12%;
     text-align: right;
 }
-.availabe-flights-ticket{
-   background-image: 
-       url("src/tst.png");
-   background-repeat: no-repeat;
-   background-position: center;
-    z-index: +1;
-    margin-top: 5%;
-    width: 90%;
-    margin-left: 3%;
-    padding: 2%;
-    border: 1px solid rgba(254, 135, 57);
-    border-radius: 10px;
-}
-.pading1rem{
-    padding: 1rem;
-}
-.block-txt{
-    display: block;
-    text-align: right;
+.airline{
+    float: right;
     font-size: 1.5rem;
-    font-weight: bold;
     color: blueviolet;
+    clear: both;
 }

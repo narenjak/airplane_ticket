@@ -1,0 +1,33 @@
+.flex_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85%;
+}
+.w1{
+    width:30%;
+    flex: 0 0 auto;
+    margin: 13px;
+}
+.w2{
+    width:65%;
+    flex: 0 0 auto;
+    margin: 13px;
+    box-shadow: 0 2px 3px rgb(158, 53, 190);
+}
+*{
+    direction: rtl;
+}
+.summery{
+    margin: 100px;
+}
+
+.w-right{
+    width:65%;
+    flex: 0 0 auto;
+    margin: 13px;
+}
+.w-left{
+    width:20%;
+    flex: 0 0 auto;
+    margin: 13px;
+}
