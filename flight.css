@@ -1,0 +1,42 @@
+.summery-des{
+    width: 100%;
+    margin-top: 4.5%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    backdrop-filter: bulr(80%);
+}
+.availabe-flights{
+    
+}
+#HeaderOfList{
+    margin-top: 12%;
+    text-align: right;
+}
+.availabe-flights-ticket{
+   background-image: 
+       url("src/tst.png");
+   background-repeat: no-repeat;
+   background-position: center;
+    z-index: +1;
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 3%;
+    padding: 2%;
+    border: 1px solid rgba(254, 135, 57);
+    border-radius: 10px;
+}
+.pading1rem{
+    padding: 1rem;
+}
+.block-txt{
+    display: block;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: blueviolet;
+}
